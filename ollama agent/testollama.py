@@ -3,7 +3,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from vector import retriever
 
 # Initialize the model and prompt
-model = OllamaLLM(model="tinyllama")
+model = OllamaLLM(model="gemma3:1b")
 
 template = '''You are an expert on answering questions about a Pizza restaurant.
 Try to be as helpful as possible when answering the questions.
